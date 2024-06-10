@@ -1,10 +1,9 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-
 import '../models/item_model.dart';
 
 class ApiService {
-  final String baseUrl = 'https://mockapi.io/projects/YOUR_PROJECT_ID';
+  final String baseUrl = 'https://6666c93fa2f8516ff7a4ead3.mockapi.io/api';
 
   Future<List<Item>> fetchItems() async {
     final response = await http.get(Uri.parse('$baseUrl/items'));

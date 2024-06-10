@@ -1,6 +1,6 @@
 # myapp
 
-A new Flutter project.
+Project ITEM Manager
 
 ## Getting Started
 
